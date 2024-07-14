@@ -45,7 +45,7 @@ function showContent(type) {
                 <p><strong>Funcionamiento:</strong> Los datos se almacenan en columnas, lo que mejora el rendimiento de las consultas que solo requieren ciertas columnas.</p>
                 <p><strong>Desventajas:</strong> Pueden ser más complicadas de configurar y mantener.</p>
                 <p><strong>Página oficial de documentación:</strong> <a href="https://cassandra.apache.org/">Cassandra</a></p>
-                <img src="IMG/columnas.png" alt="Bases de Datos Orientadas a Columnas" class="img-fluid mb-3 w-50">`;
+                <img src="IMG/Columnas.png" alt="Bases de Datos Orientadas a Columnas" class="img-fluid mb-3 w-50">`;
             break;
         case 'grafos':
             content = `

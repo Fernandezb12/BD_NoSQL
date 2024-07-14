@@ -1,0 +1,36 @@
+/* Custom styles */
+#wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: 0;
+    background-color: #343a40;
+    color: white;
+    transition: margin 0.25s ease-out;
+}
+
+#sidebar-wrapper .sidebar-heading {
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+    background-color: #007bff;
+    text-align: center;
+}
+
+#sidebar-wrapper .list-group-item {
+    background-color: #343a40;
+    color: white;
+    border: none;
+}
+
+#sidebar-wrapper .list-group-item:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+#page-content-wrapper {
+    flex: 1;
+    padding: 20px;
+}
